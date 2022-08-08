@@ -1,0 +1,35 @@
+* {
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    font-family: Helvetica;
+    background-color: lightgray;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+    background-color: lightgray;
+}
+
+#gallery {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px;
+}
+
+#gallery img {
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+}
